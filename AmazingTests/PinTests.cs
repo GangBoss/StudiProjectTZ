@@ -17,5 +17,5 @@ namespace AmazingTests
         {
             Assert.Pass();
         }
-
+    }
 }
