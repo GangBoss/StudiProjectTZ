@@ -4,7 +4,7 @@ using System.Text;
 
 namespace AmazingApp.BoobleSort
 {
-    interface IBoobleIntSort
+    public interface IBoobleIntSort
     {
         public int[] Sort(int[] array);
     }

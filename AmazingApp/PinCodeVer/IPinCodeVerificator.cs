@@ -1,6 +1,6 @@
 ﻿namespace AmazingApp.PinCodeVer
 {
-    interface IPinCodeVerificator
+    public interface IPinCodeVerificator
     {
         bool VerifyPin(string pinCode);
     }

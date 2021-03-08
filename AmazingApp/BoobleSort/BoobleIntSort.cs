@@ -1,10 +1,10 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Text;
 
 namespace AmazingApp.BoobleSort
 {
-    class BoobleIntSort:IBoobleIntSort
+    public class BoobleIntSort : IBoobleIntSort
     {
         public int[] Sort(int[] array)
         {

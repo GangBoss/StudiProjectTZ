@@ -3,7 +3,7 @@ using System.Linq;
 
 namespace AmazingApp.PinCodeVer
 {
-    class PinCodeVerificator : IPinCodeVerificator
+    public class PinCodeVerificator : IPinCodeVerificator
     {
         public bool VerifyPin(string pinCode)
         {
