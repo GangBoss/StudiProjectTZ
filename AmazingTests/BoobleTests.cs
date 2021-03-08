@@ -83,5 +83,24 @@ namespace AmazingTests
             sortedArray.Should().BeEquivalentTo(array, "should return same array");
             sortedArray.Should().BeEquivalentTo(array.OrderBy(a => a), "should be sorted");
         }
+
+        [Test]
+        public void MaximalNumbersTest()
+        {
+            var array = new int[6] {10, 10, 10, 10, 10, 10};
+            var sortedArray = sorter.Sort(array);
+
+            sortedArray.Should().BeEquivalentTo(array, "should return same array");
+            sortedArray.Should().BeEquivalentTo(array.OrderBy(a => a), "array should be sorted");
+        }
+        [Test]
+        public void MinimalNumbersTest()
+        {
+            var array = new int[6] { -10, -10, -10, -10, -10, -10 };
+            var sortedArray = sorter.Sort(array);
+
+            sortedArray.Should().BeEquivalentTo(array, "should return same array");
+            sortedArray.Should().BeEquivalentTo(array.OrderBy(a => a), "array should be sorted");
+        }
     }
 }
