@@ -16,7 +16,7 @@ namespace AmazingTests
             
         }
 
-        [Test, Description("Длинна кода либо 4 либо 6")]
+        [Test, Description("Длина кода либо 4 либо 6")]
         public void LengthTest()
         {
             Assert.AreEqual(false, verificator.VerifyPin("1"), "Ответ не верен для кода \"1\"");
